@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="styles.css">
+      <title>Kennedy Mbithi Mutia</title>
+    </head>
+    <body>
+      <nav class="site-nav grid">
+        <h1 style="border-bottom:2px solid #d48166;">Kennedy Mbithi</h1>
+        <ul>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <section id="welcome" class="grid">
+         <!-- Typed Js -->
+         <div id="page_wrap">
+          <div class="banner">
+            <div class="typed_wrap">
+              <h1><span class="typed"></span></h1>
+            </div>
+          </div>
+        </div>
+        <div class="welcome-img">
+          <img src="pictures/ronaldo.jpeg" alt="pic of planet">
+        </div>
+      </section>
+      <section id="portfolio">
+        <h3 style="color: #e6e2dd;">Some of my Projects</h3>
+        <div class="projects grid">
+          <a href="https://kennedy-rating.herokuapp.com/accounts/login/?next=/">
+            <img src="pictures/project1.png" alt="rate by peers app">
+            <h4 style="color: #e6e2dd;">project rating</h4>
+          </a>
+          <a href="https://kenny-instagram.herokuapp.com/">
+            <img src="pictures/project3.png" alt="instaclone image">
+            <h4 style="color: #e6e2dd;">Instagram replica</h4>
+          </a>
+          <a href="https://github.com/Kennedy128/pizza-week4">
+            <img src="pictures/project2.png" alt="gallery image">
+            <h4 style="color: #e6e2dd;">pizza delivery app</h4>
+          </a>
+        </div>
+      </section>
+      <section id="skills">
+        <h3>Things I Can Do</h3>
+        <ul class="grid">
+          <li>
+            <img src="pictures/javascript.png" alt="JavaScript">
+            <h4>JavaScript</h4>
+          </li>
+          <li>
+            <img src="pictures/angular.png" alt="angular">
+            <h4>Angular</h4>
+          </li>
+          <li>
+            <img src="pictures/flask.png" alt="python">
+            <h4>Python(Flask & Django)</h4>
+          </li>
+          <li>
+            <img src="pictures/postgress.png" alt="database">
+            <h4>PostgreSQL</h4>
+          </li>
+        </ul>
+        <p class="leading">I am also proficient in html,css,git integration and jQuery.</p>
+      </section>
+      <section id="contact">
+        <h3>Get In Touch</h3>
+        <form action="https://formspree.io/kennedymbithi12@gmail.com" method="post">
+          <input type="text" placeholder='Name' id="inputName" required="">
+          <input type="email" placeholder='Email' id="inputEmail" required="">
+          <textarea placeholder='Your message' id="inputMessage" required=""></textarea>
+          <button class="button">Send message</button>
+        </form>
+      </section>
+      <footer>
+        <div class="grid">
+          <p class="copyright">Copyright 2020 kennedy mbithi</p>
+          <ul class="social">
+            <li><p style="color:black;font-size: 0.8em;">Mobile No. 0711468410 </p></li>
+            <li><a href="https://www.instagram.com/nairdaee"><img src="pictures/insta.jpeg" alt="instagram"></a></li>
+            <li><a href="#"><img src="pictures/gmail.png" alt="gmail" title="kennedymbithi12@gmail.com"></a></li>
+          </ul>
+        </div>
+      </footer>
+      <script src="js/jquery.min.js "></script>
+      <script src="js/contact.js"></script>
+      <script src="js/alertify.js"></script>
+      <script src="js/main.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.7/typed.min.js"></script>
+    </body>
+</html>
