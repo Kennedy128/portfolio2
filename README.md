@@ -1,5 +1,5 @@
 # Kennedy  Mbithi
-MY PORTFOLIO, 17-06-2020.
+MY PORTFOLIO, 1-07-2020.
 By kennedy mbithi
 # Description
 This is a detailed portfolio of my life from childhood and the reasons as to why I joined Moringa school as well as some of the projects that I have been able to do. It also shows why I am interested in programming and why I chose Moringa to pursue it.
